@@ -1,0 +1,42 @@
+################
+#### TRAILS ####
+# This is where you create trails
+# You can create new trails, and add as many of the custom
+# effects you created below to them
+trails:
+  smoke:
+    permission: smoketrails.smoke
+    effects:
+    - SMOKE
+################
+#### EFFECTS ###
+# This is where you define effects.
+# Variables:
+# locationOffsetY = Offset of where the effect spawns on player, Y axis
+# range = How far the particles can be seen from
+# randomMaxFlyDis = How far a particle can spawn from the locationOffsetY
+# particleSpawnOffset = Basically randomMaxFlyDis but no random
+# randomSpeed = Speed of particle randomized
+# staticSpeed = Speed of particle, not randomized
+# randomAmount = Amount of the particles, randomized
+# staticAmount = Amount of particles, set
+################
+effects:
+  SMOKE:
+    randomMaxFlyDis:
+      enabled: true
+      offsetMax: 5
+      offsetMin: 1
+    particleSpawnOffset: 1
+    randomSpeed:
+      enabled: false
+      speedMax: 0.5
+      speedMin: 0.05
+    staticSpeed: 0.1
+    randomAmount:
+      enabled: false
+      amountMax: 4
+      amountMin: 1
+    staticAmount: 1
+    locationOffsetY: 0
+    range: 25.0

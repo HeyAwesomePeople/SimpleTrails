@@ -1,0 +1,14 @@
+name: SimpleTrails
+version: 1.0
+main: me.HeyAwesomePeople.trails.SmokeTrails
+author: HeyAwesomePeople
+description: Classy trails for players that want to walk in style.
+commands:
+  simpletrails:
+    description: Base command for all trail effects
+    aliases:
+      - st
+  sta:
+    description: Admin command
+  stc:
+    description: Command to clear your current trial
